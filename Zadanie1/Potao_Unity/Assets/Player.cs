@@ -32,10 +32,9 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.gameObject.name == "Ground"
-            || collision.collider.gameObject.name == "Platform"
-            || collision.collider.gameObject.name == "MovingPlatform"
-            || collision.collider.gameObject.name == "DisPlatform")
+        if (collision.collider.gameObject.name != "BoundaryL"
+            && collision.collider.gameObject.name != "BoundaryR"
+            && collision.collider.gameObject.name != "BoundaryTop")
         {
             isGrounded = true;
        

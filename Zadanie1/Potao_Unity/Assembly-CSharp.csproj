@@ -67,6 +67,7 @@
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\Destroy.cs" />
     <Compile Include="Assets\GameController.cs" />
+    <Compile Include="Assets\Meta.cs" />
     <Compile Include="Assets\MovingPlatform.cs" />
     <Compile Include="Assets\Player.cs" />
     <Reference Include="Unity.Timeline.Editor">
