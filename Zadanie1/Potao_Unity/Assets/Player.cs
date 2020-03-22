@@ -34,7 +34,8 @@ public class Player : MonoBehaviour
     {
         if (collision.collider.gameObject.name == "Ground"
             || collision.collider.gameObject.name == "Platform"
-            || collision.collider.gameObject.name == "MovingPlatform")
+            || collision.collider.gameObject.name == "MovingPlatform"
+            || collision.collider.gameObject.name == "DisPlatform")
         {
             isGrounded = true;
        
