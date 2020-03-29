@@ -63,6 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EndMenu.cs" />
+    <Compile Include="Assets\GameController.cs" />
+    <Compile Include="Assets\Mobek.cs" />
     <Compile Include="Assets\Player.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/a_SHARE/pjatk/Unity/s19104_Prace_Domowe/Wlasne_Tilesy/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

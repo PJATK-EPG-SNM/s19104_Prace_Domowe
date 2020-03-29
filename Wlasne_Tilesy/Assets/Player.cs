@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private float speed = 1000;
+    private float speed = 750;
     private float jump = 360;
 
     private Rigidbody2D rb;
     private bool isGrounded;
+    public bool Destroyed = false;
     
     void Start()
     {
@@ -53,7 +54,7 @@ public class Player : MonoBehaviour
         {
             rb.gravityScale = 2;
             jump = 360;
-            speed = 1000;
+            speed = 750;
         }
     }
 }

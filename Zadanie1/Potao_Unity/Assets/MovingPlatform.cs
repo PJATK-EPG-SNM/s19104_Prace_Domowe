@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovingPlatform : MonoBehaviour
 {
     public GameObject Player;
-    public float speed = 2;
+    public float speed = 1;
 
     //private bool col = false;
 
